@@ -1,0 +1,80 @@
+header {
+  height: 100vh;
+  background: url(/assets/img/tesla_cybertruck_07.jpg) center/cover;
+  nav {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+    z-index: 100;
+    position: relative;
+    transition: 0.1s ;
+    svg {
+      height: 18px;
+      cursor: pointer;
+    }
+    .main-nav {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+          transition: 0.2s ease-in-out;
+          &:hover{
+            background: #F2F2F2;
+          }
+          a {
+            font-family: $fontmedium;
+            transition: 0.2s ease-in-out;
+            &:hover{
+              color: $black;
+            }
+          }
+        }
+      }
+    }
+    .left-nav {
+      ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: $white;
+        li {
+          padding: 0 10px;
+          i {
+            cursor: pointer;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    img {
+      height: 150px;
+      position: absolute;
+      top: 150px;
+    }
+    a {
+      background: $black;
+      font-size: 0.85rem;
+      font-family: $fontmedium;
+      text-transform: uppercase;
+      color: $grey;
+      padding: 15px 25px;
+      border-top: 4px solid $grey;
+      letter-spacing: 1px;
+      transition: 0.5s ease;
+      margin-top: 600px;
+      &:hover {
+        background: #1c1c1c;
+      }
+    }
+  }
+}
