@@ -106,167 +106,6 @@ header .header-content a:hover {
   background: #1c1c1c;
 }
 
-.section1 {
-  background: url("/assets/img/Cybertruck-Second-Hero-Desktop.avif") center/cover;
-  height: 100vh;
-}
-.section1 .s1-infos {
-  height: 100%;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-.section1 .s1-infos ul {
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  height: 100%;
-  position: relative;
-}
-.section1 .s1-infos ul li {
-  position: relative;
-  margin: 20px;
-}
-.section1 .s1-infos ul li .s1border1 {
-  height: 100px;
-  width: 100%;
-  border-top: 1px solid #f9f9f9;
-  border-right: 1px solid #f9f9f9;
-}
-.section1 .s1-infos ul li .s1border2 {
-  height: 100px;
-  width: 100%;
-  border-top: 1px solid #f9f9f9;
-}
-.section1 .s1-infos ul li .s1border3 {
-  height: 100px;
-  width: 100%;
-  border-top: 1px solid #f9f9f9;
-  border-left: 1px solid #f9f9f9;
-}
-.section1 .s1-infos ul li .s1content-container1 {
-  background: rgba(0, 0, 0, 0.901);
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  height: 120px;
-  width: 100%;
-}
-.section1 .s1-infos ul li .s1content-container2 {
-  background: rgba(0, 0, 0, 0.901);
-  position: absolute;
-  top: 10px;
-  height: 120px;
-  width: 100%;
-}
-.section1 .s1-infos ul li .s1content-container3 {
-  background: rgba(0, 0, 0, 0.901);
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  height: 120px;
-  width: 100%;
-}
-.section1 .s1-infos ul li .s1content {
-  position: relative;
-  top: -95px;
-  padding: 25px;
-  width: 95%;
-}
-.section1 .s1-infos ul li .s1content h2 {
-  color: #f9f9f9;
-}
-.section1 .s1-infos ul li .s1content h2 span {
-  color: #8F9295;
-}
-.section1 .s1-infos ul li .s1content p {
-  color: #8F9295;
-  text-transform: uppercase;
-}
-.section1 .s1-infos ul::after {
-  content: "";
-  position: absolute;
-  height: 200px;
-  width: 100%;
-  bottom: 0;
-  background: linear-gradient(180deg, transparent, #111);
-}
-
-.section2 {
-  background: #111;
-  padding: 150px 0;
-}
-.section2 .video-container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-  position: relative;
-}
-.section2 .video-container video {
-  width: 100%;
-  -webkit-clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
-          clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
-}
-.section2 .video-container .s2content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 50px 0;
-  position: relative;
-  background-image: radial-gradient(rgba(143, 146, 149, 0.1294117647) 1px, transparent 2px), radial-gradient(rgba(143, 146, 149, 0.231372549) 1px, transparent 1px);
-  background-size: 30px 30px;
-}
-.section2 .video-container .s2content::after {
-  content: "";
-  position: absolute;
-  background: linear-gradient(180deg, transparent, #111);
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
-.section2 .video-container .s2content h2 {
-  font-size: 2rem;
-  color: #f9f9f9;
-  width: 80%;
-  font-weight: 100;
-  padding-left: 40px;
-  position: relative;
-  z-index: 23;
-}
-.section2 .video-container .s2content p {
-  font-size: 1rem;
-  color: rgba(143, 146, 149, 0.4588235294);
-  line-height: 35px;
-  position: relative;
-  z-index: 23;
-}
-.section2 .video-container .corner-top-left {
-  position: absolute;
-  width: 5%;
-  height: 5%;
-  border-top: 1px solid rgba(143, 146, 149, 0.5215686275);
-  border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
-  top: 0;
-  left: 0;
-}
-.section2 .video-container .corner-top-right {
-  position: absolute;
-  width: 5%;
-  height: 5%;
-  border-top: 1px solid rgba(143, 146, 149, 0.5215686275);
-  border-right: 1px solid rgba(143, 146, 149, 0.5215686275);
-  top: 0;
-  right: 0;
-}
-.section2 .video-container .corner-bottom-left {
-  position: absolute;
-  width: 30%;
-  height: 40%;
-  border-bottom: 1px solid rgba(143, 146, 149, 0.5215686275);
-  border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
-  bottom: 0;
-  left: 0;
-}
-
 .vehicule-nav {
   background: rgb(255, 255, 255);
   padding: 30px 0 80px;
@@ -506,4 +345,382 @@ header .header-content a:hover {
 .active {
   top: 70px;
   opacity: 1;
+}
+
+.section1 {
+  background: url("/assets/img/Cybertruck-Second-Hero-Desktop.avif") center/cover;
+  height: 100vh;
+}
+.section1 .s1-infos {
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.section1 .s1-infos ul {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  position: relative;
+}
+.section1 .s1-infos ul li {
+  position: relative;
+  margin: 20px;
+}
+.section1 .s1-infos ul li .s1border1 {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid #f9f9f9;
+  border-right: 1px solid #f9f9f9;
+}
+.section1 .s1-infos ul li .s1border2 {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid #f9f9f9;
+}
+.section1 .s1-infos ul li .s1border3 {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid #f9f9f9;
+  border-left: 1px solid #f9f9f9;
+}
+.section1 .s1-infos ul li .s1content-container1 {
+  background: rgba(0, 0, 0, 0.901);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 120px;
+  width: 100%;
+}
+.section1 .s1-infos ul li .s1content-container2 {
+  background: rgba(0, 0, 0, 0.901);
+  position: absolute;
+  top: 10px;
+  height: 120px;
+  width: 100%;
+}
+.section1 .s1-infos ul li .s1content-container3 {
+  background: rgba(0, 0, 0, 0.901);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 120px;
+  width: 100%;
+}
+.section1 .s1-infos ul li .s1content {
+  position: relative;
+  top: -95px;
+  padding: 25px;
+  width: 95%;
+}
+.section1 .s1-infos ul li .s1content h2 {
+  color: #f9f9f9;
+}
+.section1 .s1-infos ul li .s1content h2 span {
+  color: #8F9295;
+}
+.section1 .s1-infos ul li .s1content p {
+  color: #8F9295;
+  text-transform: uppercase;
+}
+.section1 .s1-infos ul::after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent, #111);
+}
+
+.section2 {
+  background: #111;
+  padding: 150px 0;
+}
+.section2 .video-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+.section2 .video-container video {
+  width: 100%;
+  -webkit-clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
+}
+.section2 .video-container .s2content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0;
+  position: relative;
+  background-image: radial-gradient(rgba(143, 146, 149, 0.1294117647) 1px, transparent 2px), radial-gradient(rgba(143, 146, 149, 0.231372549) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+.section2 .video-container .s2content::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, transparent, #111);
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.section2 .video-container .s2content h2 {
+  font-size: 2rem;
+  color: #f9f9f9;
+  width: 80%;
+  font-weight: 100;
+  padding-left: 40px;
+  position: relative;
+  z-index: 23;
+}
+.section2 .video-container .s2content p {
+  font-size: 1rem;
+  color: rgba(143, 146, 149, 0.4588235294);
+  line-height: 35px;
+  position: relative;
+  z-index: 23;
+}
+.section2 .video-container .corner-top-left {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  border-top: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
+  top: 0;
+  left: 0;
+}
+.section2 .video-container .corner-top-right {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  border-top: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-right: 1px solid rgba(143, 146, 149, 0.5215686275);
+  top: 0;
+  right: 0;
+}
+.section2 .video-container .corner-bottom-left {
+  position: absolute;
+  width: 30%;
+  height: 40%;
+  border-bottom: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
+  bottom: 0;
+  left: 0;
+}
+
+.section3 {
+  background: #111;
+}
+.section3 .s3-container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding: 15px;
+  position: relative;
+}
+.section3 .s3-container .s3top-container {
+  display: grid;
+  grid-template-rows: 1.2fr 1fr;
+}
+.section3 .s3-container .s3top-container .s3topvideo-container {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%, 0 93%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%, 0 93%);
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+.section3 .s3-container .s3top-container .s3topvideo-container video {
+  width: 100%;
+  padding: 10px;
+}
+.section3 .s3-container .s3top-container .s3topcontent-container {
+  padding: 30px;
+  background-image: radial-gradient(rgba(143, 146, 149, 0.1294117647) 1px, transparent 2px), radial-gradient(rgba(143, 146, 149, 0.231372549) 1px, transparent 1px);
+  background-size: 30px 30px;
+  color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 23;
+}
+.section3 .s3-container .s3top-container .s3topcontent-container h2 {
+  text-align: right;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.section3 .s3-container .s3top-container .s3topcontent-container p {
+  text-align: right;
+  font-size: 1rem;
+  color: rgba(143, 146, 149, 0.4588235294);
+  line-height: 35px;
+  position: relative;
+  z-index: 23;
+}
+.section3 .s3-container .s3top-container .s3topcontent-container::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(0deg, transparent, #111);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: -1;
+}
+.section3 .s3-container .s3bottom-container {
+  display: grid;
+  grid-template-rows: 1fr 1.2fr;
+}
+.section3 .s3-container .s3bottom-container .s3bottomcontent-container {
+  padding: 50px;
+  background-image: radial-gradient(rgba(143, 146, 149, 0.1294117647) 1px, transparent 2px), radial-gradient(rgba(143, 146, 149, 0.231372549) 1px, transparent 1px);
+  background-size: 30px 30px;
+  position: relative;
+  color: #f9f9f9;
+}
+.section3 .s3-container .s3bottom-container .s3bottomcontent-container h2 {
+  text-align: right;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.section3 .s3-container .s3bottom-container .s3bottomcontent-container p {
+  text-align: right;
+  font-size: 1rem;
+  color: rgba(143, 146, 149, 0.4588235294);
+  line-height: 35px;
+  position: relative;
+  z-index: 23;
+}
+.section3 .s3-container .s3bottom-container .s3bottomcontent-container::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, transparent, #111);
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.section3 .s3-container .s3bottom-container .s3bottomvideo-container {
+  -webkit-clip-path: polygon(100% 0, 100% 93%, 93% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 93%, 93% 100%, 0 100%, 0 0);
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+.section3 .s3-container .s3bottom-container .s3bottomvideo-container video {
+  width: 100%;
+  padding: 10px;
+}
+.section3 .s3-container .s3-bordertopleft {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  border-top: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
+  top: 0;
+  left: 0;
+}
+.section3 .s3-container .s3-bordertopright {
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  border-top: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-right: 1px solid rgba(143, 146, 149, 0.5215686275);
+  top: 0;
+  right: 0;
+}
+.section3 .s3-container .s3-borderbottomleft {
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  border-bottom: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
+  bottom: 0;
+  left: 0;
+}
+.section3 .s3-container .s3-borderbottomright {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  border-bottom: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-right: 1px solid rgba(143, 146, 149, 0.5215686275);
+  bottom: 0;
+  right: 0;
+}
+
+.section4 {
+  background: #111;
+  padding: 150px 0;
+}
+.section4 .video-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+.section4 .video-container video {
+  width: 100%;
+  -webkit-clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
+}
+.section4 .video-container .s2content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0;
+  position: relative;
+  background-image: radial-gradient(rgba(143, 146, 149, 0.1294117647) 1px, transparent 2px), radial-gradient(rgba(143, 146, 149, 0.231372549) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+.section4 .video-container .s2content::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, transparent, #111);
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.section4 .video-container .s2content h2 {
+  font-size: 2rem;
+  color: #f9f9f9;
+  font-weight: 100;
+  padding-left: 40px;
+  position: relative;
+  z-index: 23;
+}
+.section4 .video-container .s2content p {
+  font-size: 1rem;
+  color: rgba(143, 146, 149, 0.4588235294);
+  line-height: 35px;
+  position: relative;
+  z-index: 23;
+}
+.section4 .video-container .corner-top-left {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  border-top: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
+  top: 0;
+  left: 0;
+}
+.section4 .video-container .corner-top-right {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  border-top: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-right: 1px solid rgba(143, 146, 149, 0.5215686275);
+  top: 0;
+  right: 0;
+}
+.section4 .video-container .corner-bottom-left {
+  position: absolute;
+  width: 30%;
+  height: 40%;
+  border-bottom: 1px solid rgba(143, 146, 149, 0.5215686275);
+  border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
+  bottom: 0;
+  left: 0;
 }/*# sourceMappingURL=index.css.map */
