@@ -1,4 +1,4 @@
-let playOnce = true;
+
 const btnVehicules = document.getElementById("btn-1");
 const navVehicules = document.querySelector(".vehicule-nav");
 const btnEnergie = document.getElementById("btn-2");
