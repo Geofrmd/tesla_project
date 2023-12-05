@@ -1,0 +1,12 @@
+.section2 {
+  background: #111;
+  .video-container {
+
+    width: 100%;
+    text-align: center;
+    video {
+      width: 90%;
+      clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
+    }
+  }
+}

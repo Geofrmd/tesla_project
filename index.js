@@ -10,13 +10,14 @@ const headerNav = document.getElementById("header-nav");
 const mainLogo = document.querySelectorAll(".st0");
 const leftNav = document.querySelector(".left-nav-items");
 const mainNavBtn = document.querySelectorAll(".mn-btn");
+const header = document.querySelector("header");
+const children = header.children;
 
 const links = document.querySelectorAll(".main-nav a");
 const infos = document.querySelectorAll(".info");
 
 links.forEach((link, index) => {
   link.addEventListener("mouseover", () => {
-    
     infos.forEach((info) => info.classList.remove("active"));
     infos[index].classList.add("active");
     leftNav.style.color = "black";

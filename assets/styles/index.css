@@ -106,11 +106,100 @@ header .header-content a:hover {
   background: #1c1c1c;
 }
 
-.section1 .video-container {
+.section1 {
+  background: url("/assets/img/Cybertruck-Second-Hero-Desktop.avif") center/cover;
+  height: 100vh;
+}
+.section1 .s1-infos {
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.section1 .s1-infos ul {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  position: relative;
+}
+.section1 .s1-infos ul li {
+  position: relative;
+  margin: 20px;
+}
+.section1 .s1-infos ul li .s1border1 {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid #f9f9f9;
+  border-right: 1px solid #f9f9f9;
+}
+.section1 .s1-infos ul li .s1border2 {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid #f9f9f9;
+}
+.section1 .s1-infos ul li .s1border3 {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid #f9f9f9;
+  border-left: 1px solid #f9f9f9;
+}
+.section1 .s1-infos ul li .s1content-container1 {
+  background: rgba(0, 0, 0, 0.901);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 120px;
+  width: 100%;
+}
+.section1 .s1-infos ul li .s1content-container2 {
+  background: rgba(0, 0, 0, 0.901);
+  position: absolute;
+  top: 10px;
+  height: 120px;
+  width: 100%;
+}
+.section1 .s1-infos ul li .s1content-container3 {
+  background: rgba(0, 0, 0, 0.901);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 120px;
+  width: 100%;
+}
+.section1 .s1-infos ul li .s1content {
+  position: relative;
+  top: -95px;
+  padding: 25px;
+  width: 95%;
+}
+.section1 .s1-infos ul li .s1content h2 {
+  color: #f9f9f9;
+}
+.section1 .s1-infos ul li .s1content h2 span {
+  color: #8F9295;
+}
+.section1 .s1-infos ul li .s1content p {
+  color: #8F9295;
+  text-transform: uppercase;
+}
+.section1 .s1-infos ul::after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent, #111);
+}
+
+.section2 {
+  background: #111;
+}
+.section2 .video-container {
   width: 100%;
   text-align: center;
 }
-.section1 .video-container video {
+.section2 .video-container video {
   width: 90%;
   -webkit-clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
           clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);

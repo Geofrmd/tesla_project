@@ -1,11 +1,85 @@
 .section1 {
-  .video-container {
+  background: url("/assets/img/Cybertruck-Second-Hero-Desktop.avif")
+    center/cover;
+  height: 100vh;
+  .s1-infos {
+    height: 100%;
+    user-select: none;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      height: 100%;
+      position: relative;
+      li {
+        position: relative;
+        margin: 20px;
+        .s1border1 {
+          height: 100px;
+          width: 100%;
+          border-top: 1px solid $white;
+          border-right: 1px solid $white;
+        }
+        .s1border2 {
+          height: 100px;
+          width: 100%;
+          border-top: 1px solid $white;
+        }
+        .s1border3 {
+          height: 100px;
+          width: 100%;
+          border-top: 1px solid $white;
+          border-left: 1px solid $white;
+        }
+        .s1content-container1 {
+          background: rgba(0, 0, 0, 0.901);
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          height: 120px;
+          width: 100%;
+        }
+        .s1content-container2 {
+          background: rgba(0, 0, 0, 0.901);
+          position: absolute;
+          top: 10px;
 
-    width: 100%;
-    text-align: center;
-    video {
-      width: 90%;
-      clip-path: polygon(100% 0, 100% 96%, 98% 100%, 0 100%, 0 0);
+          height: 120px;
+          width: 100%;
+        }
+        .s1content-container3 {
+          background: rgba(0, 0, 0, 0.901);
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          height: 120px;
+          width: 100%;
+        }
+        .s1content {
+          position: relative;
+          top: -95px;
+          padding: 25px;
+          width: 95%;
+          h2 {
+            color: $white;
+            span {
+              color: $grey;
+            }
+          }
+          p {
+            color: $grey;
+            text-transform: uppercase;
+          }
+        }
+      }
+      &::after{
+        content: "";
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        bottom: 0;
+        background: linear-gradient(180deg, transparent, #111);
+      }
     }
   }
 }
