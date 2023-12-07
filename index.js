@@ -1,4 +1,3 @@
-
 const btnVehicules = document.getElementById("btn-1");
 const navVehicules = document.querySelector(".vehicule-nav");
 const btnEnergie = document.getElementById("btn-2");
@@ -16,6 +15,9 @@ const children = header.children;
 const links = document.querySelectorAll(".main-nav a");
 const infos = document.querySelectorAll(".info");
 
+const s5imgContainer = document.querySelector(".s5img-container");
+const imgOffSetTop = s5imgContainer.offsetTop;
+
 links.forEach((link, index) => {
   link.addEventListener("mouseover", () => {
     infos.forEach((info) => info.classList.remove("active"));
@@ -31,26 +33,12 @@ links.forEach((link, index) => {
   });
 });
 
-// btnVehicules.addEventListener("click", (e) => {
-//   e.preventDefault();
-// });
-// btnVehicules.addEventListener("mouseover", (e) => {
-//   navVehicules.classList.toggle("active");
-//   navVehicules.style.opacity = "1";
-//   btnVehicules.style.color = "black";
-// leftNav.style.color = "black";
-// headerNav.style.background = "white";
-// mainLogo.forEach((element) => {
-//   element.style.fill = "black";
-// });
-// mainNavBtn.forEach((btn) => {
-//   btn.style.color = "black";
-// });
-// });
-
-// btnEnergie.addEventListener("click", (e) => {
-//   e.preventDefault();
-// });
-// btnEnergie.addEventListener("mouseover", () => {
-//   navEnergie.classList.toggle("active");
-// });
+window.addEventListener("scroll", (e) => {
+  if (window.scrollY >= imgOffSetTop) {
+    s5imgContainer.style.position = "fixed";
+    s5imgContainer.style.top = 0;
+    s5imgContainer.style.width = "100%";
+  } else {
+    s5imgContainer.style.position = "static";
+  }
+});

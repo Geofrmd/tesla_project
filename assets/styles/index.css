@@ -723,4 +723,57 @@ header .header-content a:hover {
   border-left: 1px solid rgba(143, 146, 149, 0.5215686275);
   bottom: 0;
   left: 0;
+}
+
+.section5 {
+  background: #111;
+  padding: 200px 0;
+}
+.section5 .s5-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  align-items: end;
+  width: 80%;
+  margin: 0 auto;
+}
+.section5 .s5-container .s5img-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.section5 .s5-container .s5img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 95%, 95% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 95%, 95% 100%, 0 100%, 0 0);
+}
+.section5 .s5-container .s5content-container {
+  position: relative;
+  background-image: radial-gradient(rgba(143, 146, 149, 0.1294117647) 1px, transparent 2px), radial-gradient(rgba(143, 146, 149, 0.231372549) 1px, transparent 1px);
+  background-size: 30px 30px;
+  height: 100%;
+}
+.section5 .s5-container .s5content-container::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(0deg, transparent, #111);
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.section5 .s5-container .s5content-container h2 {
+  font-size: 2rem;
+  color: #f9f9f9;
+  font-weight: 100;
+  position: relative;
+  z-index: 23;
+  margin-bottom: 20px;
+}
+.section5 .s5-container .s5content-container p {
+  font-size: 1rem;
+  color: rgba(143, 146, 149, 0.4588235294);
+  line-height: 35px;
+  position: relative;
+  z-index: 23;
 }/*# sourceMappingURL=index.css.map */
